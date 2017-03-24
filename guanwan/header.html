@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/header.css">
+</head>
+<body>
+<div class="nav">
+    <div class="nav_m">
+        <a href="#"><img src="image/logo.png" alt=""></a>
+        <div class="nav_menu">
+            <ul>
+                <li class="nav_li1">
+                    <a href="#"><p>首页</p></a>
+                </li>
+                <li class="nav_li2">
+                    <a href="#"><p>小鸟掌学 <img src="image/nav_xiajiantou.png"></p></a>
+                    <ul class="nav_menu_down">
+                        <li onclick="javascript:window.open('aboutxiaoniao.html');">
+                            <a href="#"><p>学习主页</p></a>
+                        </li>
+                        <li onclick="javascript:window.open('aboutxiaoniao.html#1');">
+                            <a href="#"><p>小鸟掌学概括</p></a>
+                        </li>
+                        <li onclick="javascript:window.open('aboutxiaoniao.html#2');">
+                            <a href="#"><p>对企业的价值</p></a>
+                        </li>
+                        <li onclick="javascript:window.open('aboutxiaoniao.html#3');">
+                            <a href="#"><p>小鸟掌云</p></a>
+                        </li>
+                        <li>
+                            <a href="#"><p>微客联盟</p></a>
+                        </li>
+                        <li onclick="javascript:window.open('aboutxiaoniao.html#4');">
+                            <a href="#"><p>App下载</p></a>
+                        </li>
+                    </ul>
+                </li>
+                <li onclick="javascript:window.open('list.html')">
+                    <a href="#"><p>小鸟动态</p></a>
+                </li>
+                <li class="nav_li2" onclick="javascript:window.open('article1.html?type=companyIdea')">
+                    <a href="#"><p>企业文化 <img src="image/nav_xiajiantou.png"></p></a>
+                    <ul class="nav_menu_down">
+                        <li>
+                            <a href="#"><p>公司服务</p></a>
+                        </li>
+                        <li>
+                            <a href="#"><p>公司文化</p></a>
+                        </li>
+                        <li>
+                            <a href="#"><p>公司氛围</p></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav_li2" onclick="javascript:window.open('article1.html?type=talents')">
+                    <a href="#"><p>人力资源 <img src="image/nav_xiajiantou.png"></p></a>
+                    <ul class="nav_menu_down">
+                        <li>
+                            <a href="#"><p>人才服务</p></a>
+                        </li>
+                        <li>
+                            <a href="#"><p>团队介绍</p></a>
+                        </li>
+                        <li>
+
+                            <a href="#"><p>招聘信息</p></a>
+                        </li>
+                    </ul>
+                </li>
+                <li  onclick="javascript:window.open('article1.html?type=telUs')">
+                    <a href="#"><p>联系我们</p></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    $(function(){
+        $('.nav_menu li').hover(function () {
+            $(this).find('.nav_menu_down').stop().slideDown(600,'bounceBoth');
+        },function(){
+            $(this).find('.nav_menu_down').stop().slideUp(400)
+        })
+    })
+</script>
+</body>
+</html>

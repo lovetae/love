@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+<div class="foot">
+    <div class="foot_m">
+        <div class="foot_music">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <p>蜀ICP备16002451号</p>
+    </div>
+
+</div>
+</body>
+<script>
+    var count=0;
+    $('.foot_music li').click(function(){
+        var index=$(this).index();
+        var om='';
+        if(navigator.appName=="Microsoft Internet Explorer"){
+            om=$('<bgsound class="remove-music'+count+'" src="music/sound0'+index+'.mp3" autostar="true" loop="false"></bgsound>')
+            $('body').append(om);
+        }else if(navigator.userAgent.toLowerCase().indexOf("firefox")!=-1){
+            om=$('<object class="remove-music'+count+'" data="music/sound0'+index+'.mp3" type="application/x-mplayer2" width="0" height="0"><param name="src" value="sound00.mp3"><param name="autostart" value="1"><param name="playcount" value="infinite"></object>')
+            $('body').append(om);
+        }else{
+            om=$('<embed class="remove-music'+count+'" src="music/sound0'+index+'.mp3" autostar="true" loop="false" width="0" height="0">')
+            $('body').append(om);
+        }
+        setTimeout(function(){
+            om.remove();
+        },3000);
+    });
+</script>
+</html>

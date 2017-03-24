@@ -1,0 +1,315 @@
+.aboutOne{
+    width: 100%;
+    background: #299ad6;
+    position: absolute;
+    padding-top: 50px;
+    z-index: 10;
+}
+.aboutOneImg{
+    width: 400px;
+    height: 401px;
+    background: url("../image/aboutxiaoniao/xiaoniao_welcome_icon2.gif");
+    margin: 0 auto;
+    position: relative;
+    top:15%;
+}
+.aboutOneMove{
+    display: none;
+}
+.aboutOneTxt{
+    width: 800px;
+    height: 260px;
+    margin: 0 auto;
+    text-align: center;
+}
+.aboutOneText{
+    width: 520px;
+    height: 70px;
+    margin: 20px auto;
+}
+.aboutTop{
+    width: 100%;
+    height: 50px;
+    min-width: 1100px;
+    background: url("../image/aboutxiaoniao/beader_bg.jpg");
+}
+.aboutMenu{
+    width: 1100px;
+    height: 50px;
+    line-height: 40px;
+    margin: 0 auto;
+}
+.aboutLogo{
+    width:132px;
+    height: 50px;
+    background: url("../image/aboutxiaoniao/logo.png");
+    float: left;
+}
+.aboutMenu ul{
+    width: 700px;
+    height: 40px;
+    float: left;
+    margin-left: 40px;
+}
+.aboutOne111{
+    padding: 0 15px;
+    float: left;
+    font-size: 14px;
+    height: 40px;
+    color: #afabb6;
+    background: url("../image/nav_now_bg.png")no-repeat -50px 0;
+    transition: background 0.5s;
+    cursor: pointer;
+}
+.aboutTopLi{
+    color: white;
+    background-position:center bottom;
+}
+.aboutMenu li:hover{
+    background-position: center bottom;
+    color: white;
+}
+.aboutMain{
+    overflow: hidden;
+}
+.aboutMainMiddle{
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+
+}
+.aboutMainGif{
+    width: 400px;
+    height: 401px;
+    margin: 0 auto;
+    background: url("../image/aboutxiaoniao/xiaoniao_welcome_icon3.gif");
+}
+.aboutOneMore{
+    width: 58px;
+    height: 58px;
+    border-radius: 29px;
+    background: url("../image/aboutxiaoniao/donext.png")0 -58px ;
+    margin: 0 auto;
+    transition: all 0.5s;
+}
+.aboutOneMore:hover{
+    background-position: 0 0;
+}
+.aboutOneBanner{
+    width: 1100px;
+    position: absolute;
+    display: none;
+}
+.aboutMainTxt1{
+    width: 700px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+.aboutMainLi{
+    margin-top:20px;
+}
+.aboutMainLi li{
+    float: left;
+    margin: 0 42px;
+}
+.aboutOnePrev{
+    width: 58px;
+    height: 58px;
+    background: url("../image/aboutxiaoniao/goleft.png")0 0;
+    position: absolute;
+    left: -58px;
+    top:340px;
+    border-radius: 29px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.aboutOnePrev:hover{
+    background-position:-58px 0;
+}
+.aboutOneNext{
+    width: 58px;
+    height: 58px;
+    background: url("../image/aboutxiaoniao/goright.png")-58px 0;
+    position: absolute;
+    right: -58px;
+    top:340px;
+    border-radius: 29px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.aboutOneNext:hover{
+    background-position:0 0;
+}
+.aboutOneLine{
+    width: 1100px;
+    height: 38px;
+    margin-top: 25px;
+    background: url("../image/aboutxiaoniao/bird_title.png")center no-repeat;
+}
+.aboutOneOurs{
+    width: 700px;
+    height:99px;
+    padding-top: 25px;
+    margin: 25px auto;
+}
+.aboutOneOurs img{
+    float: left;
+    margin-right: 55px;
+}
+.aboutOneOurs .aboutOneOursTxt{
+    width: 540px;
+    height: 74px;
+    padding-top: 25px;
+    color: #6b6a6f;
+    float: right;
+}
+.aboutOneOursText{
+    width: 700px;
+    height: 150px;
+    line-height: 30px;
+    font-size: 17px;
+    color: #6a6a6e;
+    margin: 30px auto;
+}
+.aboutOneOursImg{
+    width: 104px;
+    height: 170px;
+    margin: 0 auto;
+    margin-top: 90px;
+    background: url("../image/aboutxiaoniao/scrollon01.jpg");
+}
+.aboutOneNo{
+    width: 1100px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    margin-bottom: 72px;
+}
+.aboutOneNo1{
+    width: 970px;
+    height: 377px;
+    margin: 0 auto;
+}
+.aboutOneNo2{
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+.aboutOneNo2 img{
+    position: absolute;
+}
+.aboutOneNo2 .aboutOneNoImg2{
+    animation: img 4s linear infinite;
+}
+@keyframes img {
+    from{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.aboutOneNo3{
+    float: left;
+}
+.aboutOneNo4{
+    float: right;
+}
+.aboutOneNo5{
+    float: left;
+}
+.aboutOneNo6{
+    float: right;
+}
+.aboutOneNo1Middle{
+    width: 810px;
+    height:320px;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+.aboutOneNoTxt1{
+    width: 370px;
+    height: 74px;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 45px;
+}
+.aboutOneNoTxt2{
+    width: 390px;
+    height: 74px;
+    float: right;
+    margin-bottom: 45px;
+}
+.aboutOneNoTxt1B{
+    width: 74px;
+    height: 74px;
+    background: url("../image/aboutxiaoniao/jiazhi_quanquan.png");
+    float: left;
+    margin-right: 26px;
+    line-height: 74px;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+}
+.aboutOneNoTxt1T{
+    line-height: 25px;
+    font-size: 16px;
+    color: white;
+    padding-top: 13px;
+    height: 61px;
+    width: 270px;
+    float: left;
+}
+.aboutOneNo1Bottom{
+    width: 970px;
+    height: 20px;
+}
+.aboutOneTxt2{
+    width:910px;
+    height: 396px;
+    background: url("../image/aboutxiaoniao/xuxian_bg.png");
+    margin: 0 auto;
+    line-height:36px;
+    font-size: 14px;
+    display: none;
+    position: absolute;
+    color: #525254;
+}
+.aboutOneLR{
+    width: 180px;
+    height: 8px;
+    margin: 25px auto;
+}
+.aboutOneL{
+    float: left;
+    width: 78px;
+    height: 8px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    background: url("../image/aboutxiaoniao/xiaoniaoyun_btn.png")0 -8px;
+}
+.aboutOneR{
+    float: right;
+    width: 78px;
+    height: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    background: url("../image/aboutxiaoniao/xiaoniaoyun_btn.png")0 -8px;
+}
+.aboutOneBlue{
+    width: 78px;
+    height: 8px;
+    position: absolute;
+    background: url("../image/aboutxiaoniao/xiaoniaoyun_btn.png")0 0;
+}
+.aboutOneR .aboutOneBlue{
+    left: -78px;
+}

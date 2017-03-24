@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+img{
+    border: none 0;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+body{
+    font-family: 楷体;
+    background: #f1f2f6;
+}
+.txt{
+    color: #311759;
+    text-align: center;
+}
+.txt p{
+    font-size: 50px;
+    cursor: pointer;
+}
+.txt span{
+    font-size: 15px;
+    letter-spacing: 8px;
+    cursor: pointer;
+}
+.txt div{
+    width:37px;
+    height: 8px;
+    margin: 25px auto;
+    background:url("../image/three_points01.png");
+}
+.right{
+    height: 150px;
+    position: fixed;
+    right: 100px;
+    bottom: 200px;
+    display: none;
+}
+.right_top{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    float: right;
+    position: relative;
+    margin-bottom: 13px;
+    background: url("../image/scroll_top_bg.png")0 0;
+    cursor: pointer;
+}
+.right_top:hover{
+    background: url("../image/scroll_top_bg.png")0 -50px;
+    transition: all 0.5s;
+}
+.right_bottom{
+    width: 87px;
+    height: 87px;
+    position: relative;
+    left: 17px;
+    top: 63px;
+    background: url("../image/fixed_contactus.png")-148px 0;
+}
+.right_bottom:hover{
+    width:235px;
+    background: url("../image/fixed_contactus.png");
+    transition: all 0.5s;
+    cursor: pointer;
+}

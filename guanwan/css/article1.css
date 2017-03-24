@@ -1,0 +1,173 @@
+.content_box{
+    width: 100%;
+    height:2000px;
+    position: relative;
+}
+.content_box .content0{
+    width:1100px;
+    height:2000px;
+    background: white;
+    margin: 0 auto;
+}
+.content_box .content{
+    width:780px;
+    height:2000px;
+    margin: 0 auto;
+    /*background: navy;*/
+    border-top: 1px solid transparent;
+}
+.content .title{
+    width: 780px;
+    height: 74px;
+    /*background: palevioletred;*/
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 74px;
+}
+.content  .title .p1{
+    color: #311759;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.content  .title .p2{
+    color: #311759;
+    font-size: 13px;
+    word-spacing: 0.3mm;
+    font-family: "微软雅黑";
+}
+.content  .ua{
+    width: 58px;
+    height: 11px;
+    margin: 0 auto;
+    margin-top:15px;
+    /*background: palegreen;*/
+}
+.content  .ua li{
+    width: 11px;
+    height: 11px;
+    background: url(../image/jianjie_nowline_xiaoquan.png) no-repeat 0 -11px;
+    float: left;
+    margin-left: 7px;
+}
+.content .qudao{
+    width:730px;
+    height:76px;
+    float: left;
+    /*background: lightsalmon;*/
+    margin-top: 42px;
+    color: #302561;
+    font-size: 28px;
+    font-weight: bolder;
+    line-height: 76px;
+    border-bottom: 2px solid #afaeb4;
+}
+.content .guanliyuan{
+    width:200px;
+    height:14px;
+    float: left;
+    margin-top:19px;
+    font-size: 12px;
+    color: #6a6665;
+    line-height:14px;
+   font-family: "Microsoft YaHei";
+    /*background: indigo;*/
+}
+.content .tu{
+    width:780px;
+    height:231px;
+    float: left;
+    background: black;
+    margin-top: 23px;
+}
+.content .cont{
+    width:780px;
+    height:1111px;
+    float: left;
+    /*background: papayawhip;*/
+}
+.page3text{
+    width:800px;
+    margin:10px auto;
+}
+.page3exa{
+    width:1100px;
+    height:330px;
+    margin:0 auto;
+}
+.content .xin_box{
+    width:210px;
+    height:73px;
+    float: left;
+    margin-left: 350px;
+    margin-top: 80px;
+    /*background: orchid;*/
+}
+.content .xin{
+    width:73px;
+    height:73px;
+    float: left;
+    background:url("../image/article_iflike.png") no-repeat;
+    background-position: 0 0;
+    cursor: pointer;
+    transition:all 0.5s;
+}
+.content .xin:hover{
+    animation: myframe1  0.5s;
+}
+@keyframes myframe1{
+    from{
+        transform: scale(1.2,0.8);
+    }
+    30%{
+        transform: scale(0.5,1.1);
+    }
+    50%{
+        transform: scale(0.75,1.2);
+    }
+    80%{
+        transform: scale(1.2,0.4);
+    }
+    to{
+        transform:scale(1,1) ;
+    }
+}
+.content .iflike{
+    width:0;
+    height:35px;
+    float: left;
+    margin-left: 73px;
+    margin-top: 19px;
+    background:url("../image/article_iflike_nomberbg.png");
+    transition: all 0.5s;
+    color: transparent;
+   text-align: center;
+    line-height: 35px;
+}
+.content .xin_tips_box{
+    width:780px;
+    height:50px;
+    float: left;
+    position:relative;
+    margin-top:20px;
+    /*background:yellow;*/
+}
+.content .xin_tips{
+    width:200px;
+    height:50px;
+    position: absolute;
+    top:300px;
+    left:300px;
+    opacity: 0;
+    text-align: center;
+    line-height: 50px;
+
+    font-size: 18px;
+}
+.footer_top{
+    position: absolute;
+   bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 33px;
+    background: url("../image/map_bottomimg.png") no-repeat center;
+}

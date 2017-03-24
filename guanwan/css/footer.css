@@ -1,0 +1,107 @@
+.foot{
+    width: 100%;
+    min-width: 1100px;
+    height: 348px;
+    background: url("../image/yinyue_bg.jpg") center no-repeat;
+}
+.foot_m{
+    width: 1100px;
+    height: 233px;
+    padding-top: 115px;
+    margin: 0 auto;
+}
+.foot_music{
+    width: 1100px;
+    height: 145px;
+    border-bottom: 2px dashed #9890a2;
+}
+.foot_music ul{
+    width: 581px;
+    height: 57px;
+    margin: 0 auto;
+}
+.foot_music ul li{
+    width: 57px;
+    height: 57px;
+    margin: 0 13px;
+    float: left;
+}
+
+@keyframes tae {
+    from{
+        transform: scale(1,1);
+    }
+    35%{
+        transform:scale(1.1,0.9);
+    }
+    70%{
+        transform:scale(1,1.1);
+    }
+    to{
+        transform: scale(1,1);
+    }
+}
+.foot_music ul li:nth-of-type(1){
+    background: url("../image/yinyue_duo.png") 0 0;
+}
+.foot_music ul li:nth-of-type(1):hover{
+    background-position: 0 -57px;
+    animation:tae 1s;
+    cursor: pointer;
+}
+.foot_music ul li:nth-of-type(2){
+    background: url("../image/yinyue_lai.png") 0 0;
+}
+.foot_music ul li:nth-of-type(2):hover{
+    background-position: 0 -57px;
+    animation:tae 1s;
+    cursor: pointer;
+}
+.foot_music ul li:nth-of-type(3){
+    background: url("../image/yinyue_mi.png") 0 0;
+}
+.foot_music ul li:nth-of-type(3):hover{
+    background-position: 0 -57px;
+    animation:tae 1s;
+    cursor: pointer;
+}
+.foot_music ul li:nth-of-type(4){
+    background: url("../image/yinyue_fa.png") 0 0;
+}
+.foot_music ul li:nth-of-type(4):hover{
+    background-position: 0 -57px;
+    animation:tae 1s;
+    cursor: pointer;
+}
+.foot_music ul li:nth-of-type(5){
+    background: url("../image/yinyue_suo.png") 0 0;
+}
+.foot_music ul li:nth-of-type(5):hover{
+    background-position: 0 -57px;
+    animation:tae 1s;
+    cursor: pointer;
+}
+.foot_music ul li:nth-of-type(6){
+    background: url("../image/yinyue_la.png") 0 0;
+}
+.foot_music ul li:nth-of-type(6):hover{
+    background-position: 0 -57px;
+    animation:tae 1s;
+    cursor: pointer;
+}
+.foot_music ul li:nth-of-type(7){
+    background: url("../image/yinyue_xi.png") 0 0;
+}
+.foot_music ul li:nth-of-type(7):hover{
+    background-position: 0 -57px;
+    animation:tae 1s;
+    cursor: pointer;
+}
+.foot_m p{
+    height: 65px;
+    width: 1100px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 13px;
+    color: white;
+}
